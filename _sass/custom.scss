@@ -1,0 +1,19 @@
+.top-table {
+    // width: 100%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    --poster-color: rgba(0,0,0,0);
+    --progress-bar-color: rgba(0,0,0,0);
+    --progress-bar-height: 0px;
+    --progress-mask: rgba(0,0,0,0);
+    outline: none;
+    // pointer-events: none;
+}
+
+@media (min-width: 500px) {
+    .top-table {
+        width: 500px;
+        height: 500px;
+    }
+}
